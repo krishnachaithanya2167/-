@@ -45,42 +45,11 @@ GNT:       0001 0010 0100 1000 0001
 
 ## 🚀 Getting Started
 
-### 1. Simulation (EDA Playground)
+### Simulation (EDA Playground)
 
 > You can view and simulate the design here:
 > 🔗 [EDA Playground Link](https://www.edaplayground.com/x/9Jdd)
 
-### 2. Local Simulation
-
-Install Icarus Verilog:
-
-```bash
-sudo apt install iverilog gtkwave
-```
-
-Run simulation:
-
-```bash
-iverilog -o arbiter_tb.vvp tb/arbiter_tb.v src/arbiter.v
-vvp arbiter_tb.vvp
-gtkwave dump.vcd
-```
-
-### 3. Synthesis (Yosys)
-
-Run synthesis with:
-
-```bash
-yosys yosys/synth.ys
-```
-
-`synth.ys` example:
-
-```yosys
-read_verilog src/arbiter.v
-synth -top arbiter
-show
-```
 
 ## 📌 License
 
