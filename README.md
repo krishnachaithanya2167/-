@@ -27,14 +27,11 @@ GNT:       0001 0010 0100 1000 0001
 ```
 .
 ├── src/
-│   └── arbiter.v         # RTL Verilog code
+│   └── design.v         # RTL Verilog code
 ├── tb/
-│   └── arbiter_tb.v      # Testbench code
+│   └── tb.v      # Testbench code
 ├── output/
 │   └── waveform.png      # Sample waveform screenshot
-├── yosys/
-│   └── synth.ys          # Yosys synthesis script
-└── edaplayground_link.txt # Link to public simulation
 └── README.md             # This file
 ```
 
