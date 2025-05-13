@@ -9,6 +9,8 @@ This repository contains the Verilog source code, testbench, and waveform analys
 * Clock and reset based FSM
 * Implements fair round-robin arbitration logic
 * Supports multiple simultaneous requests
+* Fixed Time Slice and Variable Time Slice arbitration logic
+* Testbenches and waveform analysis for both implementations
 
 ## 🧠 How It Works
 
@@ -44,13 +46,15 @@ GNT:       0001 0010 0100 1000 0001
 
 * [EDA Playground](https://www.edaplayground.com) – Functional simulation (Icarus Verilog)
 * [Yosys](https://yosyshq.net/yosys/) – Synthesis and RTL analysis
+* Aldec Riviera – Waveform analysis
 
 ## 🚀 Getting Started
 
 ### Simulation (EDA Playground)
 
 > You can view and simulate the design here:
-> 🔗 [EDA Playground Link](https://www.edaplayground.com/x/9Jdd)
+> 🔗 [EDA Playground Link for Fixed Time Slices](https://www.edaplayground.com/x/9Jdd)
+> 🔗 [EDA Playground Link for Variable Time Slices](https://www.edaplayground.com/x/GJFg)
 
 
 ## 📌 License
