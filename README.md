@@ -1,6 +1,6 @@
 # Round-Robin Arbiter (4-Input) – Verilog Implementation
 
-This repository contains the Verilog source code, testbench, and waveform analysis for a 4-input **Round-Robin Arbiter (Fixed Time Slices)**. The design ensures fair arbitration among competing requests by granting access in a rotating priority order.
+This repository contains the Verilog source code, testbench, and waveform analysis for a 4-input **Round-Robin Arbiter (Fixed Time Slice and Variable Time Slice)**. The design ensures fair arbitration among competing requests by granting access in a rotating priority order.
 
 ## 🔧 Features
 
