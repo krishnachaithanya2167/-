@@ -27,11 +27,16 @@ GNT:       0001 0010 0100 1000 0001
 ```
 .
 ├── src/
-│   └── design.v         # RTL Verilog code
+│   └── design.v         # RTL Verilog code for fixed time slice
+│   └── design_vts.v     # RTL Verilog code for variable time slice
 ├── tb/
-│   └── tb.v      # Testbench code
+│   └── tb.v      # Testbench code for fixed time slice
+│   └── tb_vts.v  # Testbench code for variable time slice
 ├── output/
-│   └── waveform.png      # Sample waveform screenshot
+│   └── waveform.png      # Sample waveform screenshot for fixed time slice
+│   └── waveform 2.png    # Sample waveform screenshot for variable time slice
+│   └── yosys circuit diagram 1.png    # Circuit diagram screenshot for fixed time slice
+│   └── yosys circuit diagram.png      # Circuit diagram screenshot for variable time slice
 └── README.md             # This file
 ```
 
